@@ -1,0 +1,492 @@
+[2024-03-20 19:17:01,874: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:18:51,264: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:19:13,875: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:20:13,961: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:20:29,122: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:20:44,248: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:20:44,252: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-20 19:20:44,254: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-20 19:22:13,559: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:22:13,562: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-20 19:22:13,565: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-20 19:22:13,567: INFO: common: created directory at: artifacts]
+[2024-03-20 19:22:25,289: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:22:25,293: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-20 19:22:25,297: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-20 19:22:25,299: INFO: common: created directory at: artifacts]
+[2024-03-20 19:29:44,799: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-20 19:29:44,805: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:29:44,810: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-20 19:29:44,813: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-20 19:29:44,816: INFO: common: created directory at: artifacts]
+[2024-03-20 19:29:44,819: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-20 19:29:45,633: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 449A:385705:22B249:2B10FA:65FAC8A9
+Accept-Ranges: bytes
+Date: Wed, 20 Mar 2024 11:29:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mnl9725-MNL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710934186.805929,VS0,VE327
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 27bd8c16d2c0f71beae241fe08d94b77d066f011
+Expires: Wed, 20 Mar 2024 11:34:46 GMT
+Source-Age: 0
+
+]
+[2024-03-20 19:29:45,637: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-20 19:34:18,810: INFO: 1856076900: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-20 19:34:18,816: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:34:18,819: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-20 19:34:18,823: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-20 19:34:18,824: INFO: common: created directory at: artifacts]
+[2024-03-20 19:34:18,826: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-20 19:34:18,841: INFO: 1856076900: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-20 19:34:52,496: INFO: 1866883060: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-20 19:34:52,502: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-20 19:34:52,504: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-20 19:34:52,507: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-20 19:34:52,508: INFO: common: created directory at: artifacts]
+[2024-03-20 19:34:52,510: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-20 19:34:52,541: INFO: data_transformation: Splited data into training and test sets]
+[2024-03-20 19:34:52,542: INFO: data_transformation: (1199, 12)]
+[2024-03-20 19:34:52,543: INFO: data_transformation: (400, 12)]
+[2024-03-20 19:34:52,545: INFO: 1866883060: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 00:58:17,851: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 00:58:17,861: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 00:58:17,866: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 00:58:17,869: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 00:58:17,871: INFO: common: created directory at: artifacts]
+[2024-03-21 00:58:17,873: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 00:58:17,874: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 00:58:17,883: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 00:58:24,707: INFO: 1856076900: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-21 00:58:24,713: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 00:58:24,715: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 00:58:24,720: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 00:58:24,722: INFO: common: created directory at: artifacts]
+[2024-03-21 00:58:24,724: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 00:58:24,742: INFO: 1856076900: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 00:58:27,289: INFO: 1866883060: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 00:58:27,297: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 00:58:27,299: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 00:58:27,303: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 00:58:27,305: INFO: common: created directory at: artifacts]
+[2024-03-21 00:58:27,307: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 00:58:27,334: INFO: data_transformation: Splited data into training and test sets: train size [0.75], test size [0.25]]
+[2024-03-21 00:58:27,335: INFO: data_transformation: (1199, 12)]
+[2024-03-21 00:58:27,336: INFO: data_transformation: (400, 12)]
+[2024-03-21 00:58:27,338: INFO: 1866883060: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 00:58:40,794: INFO: 1866883060: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 00:58:40,799: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 00:58:40,802: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 00:58:40,807: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 00:58:40,810: INFO: common: created directory at: artifacts]
+[2024-03-21 00:58:40,811: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 00:58:40,831: INFO: data_transformation: Splited data into training and test sets: train size [0.6], test size [0.4]]
+[2024-03-21 00:58:40,832: INFO: data_transformation: (959, 12)]
+[2024-03-21 00:58:40,833: INFO: data_transformation: (640, 12)]
+[2024-03-21 00:58:40,834: INFO: 1866883060: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 00:58:51,262: INFO: 1866883060: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 00:58:51,270: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 00:58:51,273: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 00:58:51,276: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 00:58:51,277: INFO: common: created directory at: artifacts]
+[2024-03-21 00:58:51,279: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 00:58:51,300: INFO: data_transformation: Splited data into training and test sets: train size [0.75], test size [0.25]]
+[2024-03-21 00:58:51,302: INFO: data_transformation: (1199, 12)]
+[2024-03-21 00:58:51,302: INFO: data_transformation: (400, 12)]
+[2024-03-21 00:58:51,303: INFO: 1866883060: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:07:02,659: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:07:02,666: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:07:02,669: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:07:02,672: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:07:02,674: INFO: common: created directory at: artifacts]
+[2024-03-21 01:07:02,675: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:07:02,677: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:07:02,680: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:07:40,538: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:07:40,554: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:07:40,558: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:07:40,563: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:07:40,567: INFO: common: created directory at: artifacts]
+[2024-03-21 01:07:40,569: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:07:40,570: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:07:40,573: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:08:07,521: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:08:07,527: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:08:07,531: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:08:07,535: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:08:07,537: INFO: common: created directory at: artifacts]
+[2024-03-21 01:08:07,538: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:08:07,540: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:08:07,542: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:08:35,015: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:08:35,022: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:08:35,029: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:08:35,035: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:08:35,037: INFO: common: created directory at: artifacts]
+[2024-03-21 01:08:35,040: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:08:35,042: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:08:35,046: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:09:37,570: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:09:37,575: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:09:37,579: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:09:37,584: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:09:37,586: INFO: common: created directory at: artifacts]
+[2024-03-21 01:09:37,588: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:09:37,589: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:09:37,592: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:09:49,662: INFO: 3450102634: >>>>>> stage Data Ingestion stage started <<<<<<dsadsa]
+[2024-03-21 01:09:49,668: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:09:49,671: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:09:49,674: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:09:49,675: INFO: common: created directory at: artifacts]
+[2024-03-21 01:09:49,677: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:09:49,678: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:09:49,681: INFO: 3450102634: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:09:54,389: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:09:54,394: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:09:54,397: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:09:54,402: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:09:54,403: INFO: common: created directory at: artifacts]
+[2024-03-21 01:09:54,404: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:09:54,405: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:09:54,408: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:10:43,559: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:10:43,562: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:10:43,563: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:10:43,565: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:10:43,565: INFO: common: created directory at: artifacts]
+[2024-03-21 01:10:43,566: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:10:43,566: ERROR: stage_01_data_ingestion: DataIngestionConfig.__init__() got an unexpected keyword argument 'data_source']
+Traceback (most recent call last):
+  File "/home/paolofrancisco/mlflow-model/src/Model/pipeline/stage_01_data_ingestion.py", line 26, in <module>
+    obj.main()
+  File "/home/paolofrancisco/mlflow-model/src/Model/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/paolofrancisco/mlflow-model/src/Model/config/configuration.py", line 31, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: DataIngestionConfig.__init__() got an unexpected keyword argument 'data_source'
+[2024-03-21 01:11:11,912: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:11:11,915: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:11:11,916: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:11:11,917: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:11:11,917: INFO: common: created directory at: artifacts]
+[2024-03-21 01:11:11,918: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:11:11,918: INFO: stage_01_data_ingestion: Data Source:daas]
+[2024-03-21 01:11:11,918: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:11:11,919: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:13:52,391: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:13:52,398: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:13:52,401: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:13:52,404: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:13:52,406: INFO: common: created directory at: artifacts]
+[2024-03-21 01:13:52,408: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:13:52,410: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:13:52,415: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:13:55,611: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:13:55,618: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:13:55,621: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:13:55,626: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:13:55,628: INFO: common: created directory at: artifacts]
+[2024-03-21 01:13:55,630: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:13:55,632: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:13:55,635: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:14:06,346: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:14:06,350: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:14:06,352: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:14:06,354: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:14:06,355: INFO: common: created directory at: artifacts]
+[2024-03-21 01:14:06,355: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:14:06,355: INFO: stage_01_data_ingestion: Data Source: daas]
+[2024-03-21 01:14:06,356: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:14:06,358: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:14:44,711: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:14:44,713: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:14:44,714: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:14:44,715: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:14:44,715: INFO: common: created directory at: artifacts]
+[2024-03-21 01:14:44,716: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:14:44,716: INFO: stage_01_data_ingestion: Data Source: test]
+[2024-03-21 01:14:44,716: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:14:44,717: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:15:14,361: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:15:14,373: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:15:14,376: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:15:14,381: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:15:14,383: INFO: common: created directory at: artifacts]
+[2024-03-21 01:15:14,384: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:15:14,386: INFO: stage_01_data_ingestion: Data Source: test]
+[2024-03-21 01:15:14,388: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:15:14,392: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:15:51,930: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:15:51,936: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:15:51,938: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:15:51,941: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:15:51,943: INFO: common: created directory at: artifacts]
+[2024-03-21 01:15:51,947: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:15:51,949: INFO: stage_01_data_ingestion: Data Source: Invalid Source]
+[2024-03-21 01:15:51,951: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:15:51,953: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:16:27,250: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:16:27,253: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:16:27,254: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:16:27,256: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:16:27,256: INFO: common: created directory at: artifacts]
+[2024-03-21 01:16:27,256: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:16:27,256: INFO: stage_01_data_ingestion: Data Source: Invalid Source]
+[2024-03-21 01:16:27,257: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:16:27,260: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:16:31,723: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:16:31,729: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:16:31,732: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:16:31,736: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:16:31,738: INFO: common: created directory at: artifacts]
+[2024-03-21 01:16:31,739: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:16:31,741: INFO: stage_01_data_ingestion: Data Source: Invalid Source]
+[2024-03-21 01:16:31,743: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:16:31,746: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:16:44,463: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:16:44,467: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:16:44,468: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:16:44,471: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:16:44,471: INFO: common: created directory at: artifacts]
+[2024-03-21 01:16:44,471: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:16:44,471: INFO: stage_01_data_ingestion: Data Sourcedasdas: Invalid Source]
+[2024-03-21 01:16:44,472: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:16:44,473: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:17:23,987: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:17:23,989: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:17:23,990: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:17:23,992: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:17:23,992: INFO: common: created directory at: artifacts]
+[2024-03-21 01:17:23,992: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:17:23,992: INFO: stage_01_data_ingestion: Data Source: Invalid Source]
+[2024-03-21 01:17:23,992: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:17:23,994: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:22:32,634: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:22:32,636: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:22:32,637: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:22:32,639: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:22:32,639: INFO: common: created directory at: artifacts]
+[2024-03-21 01:22:32,640: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:22:32,640: ERROR: stage_01_data_ingestion: data_source must be either 'DAAS' or 'Sheets']
+Traceback (most recent call last):
+  File "/home/paolofrancisco/mlflow-model/src/Model/pipeline/stage_01_data_ingestion.py", line 26, in <module>
+    obj.main()
+  File "/home/paolofrancisco/mlflow-model/src/Model/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/paolofrancisco/mlflow-model/src/Model/config/configuration.py", line 31, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+  File "<string>", line 8, in __init__
+  File "/home/paolofrancisco/mlflow-model/src/Model/entity/config_entity.py", line 19, in __post_init__
+    validate_data_source(self.data_source)
+  File "/home/paolofrancisco/mlflow-model/src/Model/entity/config_entity.py", line 7, in validate_data_source
+    raise ValueError("data_source must be either 'DAAS' or 'Sheets'")
+ValueError: data_source must be either 'DAAS' or 'Sheets'
+[2024-03-21 01:22:50,523: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:22:50,525: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:22:50,526: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:22:50,527: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:22:50,527: INFO: common: created directory at: artifacts]
+[2024-03-21 01:22:50,528: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:22:50,528: ERROR: stage_01_data_ingestion: data_source must be either 'DAAS' or 'Sheets']
+Traceback (most recent call last):
+  File "/home/paolofrancisco/mlflow-model/src/Model/pipeline/stage_01_data_ingestion.py", line 26, in <module>
+    obj.main()
+  File "/home/paolofrancisco/mlflow-model/src/Model/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/paolofrancisco/mlflow-model/src/Model/config/configuration.py", line 31, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+  File "<string>", line 8, in __init__
+  File "/home/paolofrancisco/mlflow-model/src/Model/entity/config_entity.py", line 19, in __post_init__
+    validate_data_source(self.data_source)
+  File "/home/paolofrancisco/mlflow-model/src/Model/entity/config_entity.py", line 7, in validate_data_source
+    raise ValueError("data_source must be either 'DAAS' or 'Sheets'")
+ValueError: data_source must be either 'DAAS' or 'Sheets'
+[2024-03-21 01:22:55,156: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:22:55,159: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:22:55,160: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:22:55,161: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:22:55,162: INFO: common: created directory at: artifacts]
+[2024-03-21 01:22:55,162: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:22:55,162: INFO: stage_01_data_ingestion: Data Source: DAAS]
+[2024-03-21 01:22:55,162: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:22:55,164: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:23:24,169: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:23:24,173: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:23:24,175: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:23:24,177: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:23:24,177: INFO: common: created directory at: artifacts]
+[2024-03-21 01:23:24,177: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:23:24,178: INFO: data_ingestion: Data Source: DAAS]
+[2024-03-21 01:23:24,178: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:23:24,180: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:30:51,778: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:30:51,782: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:30:51,784: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:30:51,786: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:30:51,786: INFO: common: created directory at: artifacts]
+[2024-03-21 01:30:51,787: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:30:51,787: INFO: data_ingestion: Data Source: DAAS]
+[2024-03-21 01:30:51,787: INFO: data_ingestion: access_key_test]
+[2024-03-21 01:30:51,787: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:30:51,789: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:31:26,292: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-03-21 01:31:26,295: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:31:26,296: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:31:26,298: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:31:26,298: INFO: common: created directory at: artifacts]
+[2024-03-21 01:31:26,298: INFO: common: created directory at: artifacts/model_trainer]
+[2024-03-21 01:31:26,331: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:31:36,762: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 01:31:36,765: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:31:36,766: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:31:36,768: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:31:36,769: INFO: common: created directory at: artifacts]
+[2024-03-21 01:31:36,769: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 01:31:36,789: INFO: data_transformation: Splited data into training and test sets: train size [0.75], test size [0.25]]
+[2024-03-21 01:31:36,789: INFO: data_transformation: (1199, 12)]
+[2024-03-21 01:31:36,789: INFO: data_transformation: (400, 12)]
+[2024-03-21 01:31:36,789: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:31:42,953: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 01:31:42,956: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:31:42,957: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:31:42,958: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:31:42,958: INFO: common: created directory at: artifacts]
+[2024-03-21 01:31:42,959: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 01:31:42,963: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:34:09,229: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 01:34:09,233: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:34:09,234: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:34:09,235: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:34:09,236: INFO: common: created directory at: artifacts]
+[2024-03-21 01:34:09,236: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 01:34:09,242: ERROR: data_transformation: The 'train_size' parameter of train_test_split must be a float in the range (0.0, 1.0), an int in the range [1, inf) or None. Got 'asd' instead.]
+Traceback (most recent call last):
+  File "/home/paolofrancisco/mlflow-model/src/Model/components/data_transformation.py", line 24, in train_test_spliting
+    train, test = train_test_split(
+  File "/home/paolofrancisco/.local/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 203, in wrapper
+    validate_parameter_constraints(
+  File "/home/paolofrancisco/.local/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'train_size' parameter of train_test_split must be a float in the range (0.0, 1.0), an int in the range [1, inf) or None. Got 'asd' instead.
+[2024-03-21 01:34:09,244: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:37:24,760: INFO: 2612478329: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 01:37:24,770: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:37:24,776: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:37:24,779: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:37:24,782: INFO: common: created directory at: artifacts]
+[2024-03-21 01:37:24,785: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 01:37:24,788: INFO: stage_01_data_ingestion: Data Source: DAAS]
+[2024-03-21 01:37:24,790: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-03-21 01:37:24,795: INFO: 2612478329: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:37:29,593: INFO: 1866883060: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 01:37:29,600: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:37:29,603: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:37:29,608: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:37:29,610: INFO: common: created directory at: artifacts]
+[2024-03-21 01:37:29,612: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 01:37:29,623: INFO: 1866883060: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:39:24,902: INFO: 2812124109: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 01:39:24,915: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:39:24,919: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:39:24,926: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:39:24,928: INFO: common: created directory at: artifacts]
+[2024-03-21 01:39:24,933: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 01:39:24,942: INFO: 2812124109: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 01:39:50,072: INFO: 2812124109: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-03-21 01:39:50,081: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 01:39:50,084: INFO: common: yaml file: config/params.yaml loaded successfully]
+[2024-03-21 01:39:50,087: INFO: common: yaml file: config/schema.yaml loaded successfully]
+[2024-03-21 01:39:50,088: INFO: common: created directory at: artifacts]
+[2024-03-21 01:39:50,089: INFO: common: created directory at: artifacts/data_transformation]
+[2024-03-21 01:39:50,097: INFO: 2812124109: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
